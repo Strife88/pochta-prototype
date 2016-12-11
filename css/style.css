@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.full-width {
+    width:100%;
+    font-size: 0px;
+}
+.container {
+    width:940px;
+    margin: auto;
+}
+.header {
+    background: url(../img/header/header.png);
+    height: 273px;
+    position: relative;
+    z-index: 999;
+}
+.banner {
+    background: url(../img/banner/first-post_newyear.jpg) 50%;
+    height: 565px;
+}
+.promo {
+    background: url(../img/content/body_1.png);
+    height: 402px;
+}
+.trees {
+    margin-top: 40px;
+    background: url(../img/content/posadi-derevo-bg.jpg);
+    height: 100px;
+    position: relative;
+}
+.deco-btn {
+    position: absolute;
+    background: url(../img/content/btn_les.png) no-repeat;
+    height: 45px;
+    width: 221px;
+    top:30px;
+    margin-left:50%;
+    left:-110px;
+}
+.news {
+    background: url(../img/content/body_2.png) no-repeat;
+    height: 442px;
+}
+.footer {
+    background: url(../img/footer/footer-bg.png) no-repeat;
+    height: 729px;
+}
+.footer-1 {
+    background: url(../img/footer/footer_1.png) no-repeat;
+    height: 386px;
+}
+.footer-2 {
+    background: url(../img/footer/footer_2.png) no-repeat;
+    height: 86px;
+    margin-bottom: 60px;
+}
+.footer-3 {
+    background: url(../img/footer/footer_3.png) no-repeat;
+    height: 93px;
+    margin-top:40px;
+}
+.head {
+    background: url(../img/loans_and_payments/header.png) no-repeat;
+    height: 128px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.head:after {
+    position: absolute;
+    left: -900px;
+    top:0px;
+    content:"";
+    height: 120px;
+    width: 900px;
+    background: url(../img/loans_and_payments/pattern.png)
+}
+.bg {
+    background: linear-gradient( to bottom, #fcfcfc, white);
+    padding-top: 50px;
+    font-size: 0px;
+}
+
+.column-3_4 {
+    display: inline-block;
+    margin-right: 20px;
+    width:620px;
+    vertical-align: top;
+}
+.column-1_4 {
+    display: inline-block;
+    width:300px;
+    vertical-align: top;
+
+}
+.credit-pervi-pocht {
+    background: url(../img/loans_and_payments/pervi_pocht.png) no-repeat;
+    height: 367px;
+        margin-bottom: 20px;
+        position: relative;
+}
+.credit-prosto-kredit {
+    background: url(../img/loans_and_payments/prosto_kredit.png) no-repeat;
+    height: 300px;
+        margin-bottom: 20px;
+        position: relative;
+}
+.options-1 {
+    background: url(../img/loans_and_payments/online_pay.png) no-repeat;
+    height: 265px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.options-2 {
+    background: url(../img/loans_and_payments/dop.png) no-repeat;
+    height: 176px;
+        margin-bottom: 20px;
+}
+.options-3 {
+    background: url(../img/loans_and_payments/other.png) no-repeat;
+    height: 180px;
+        margin-bottom: 20px;
+}
+.rest {
+    background: url(../img/loans_and_payments/rest.png) no-repeat;
+    height: 1794px;
+    margin-bottom: 40px;
+    margin-top:100px;
+}
+.first-part {
+    background: url(../img/pervi_pochtovi/landing_1.png) no-repeat;
+    height: 1817px;
+    position: relative;
+}
+.spoiler{
+    position: absolute;
+    content: "";
+    width:940px;
+    height:100px;
+    background: none;
+    bottom: 0px;
+    left:50%;
+    margin-left:-470px;
+    cursor: pointer;
+}
+.calculator {
+    background: url(../img/pervi_pochtovi/calc.png) no-repeat;
+    height: 919px;
+    display: none;
+}
+.calculator-open {
+    background: url(../img/pervi_pochtovi/calc.png) no-repeat;
+    height: 919px;
+    display: block;
+}
+.second-part {
+    background: url(../img/pervi_pochtovi/landing_2.png) no-repeat;
+    height: 6101px;
+}
+.footer-anketa{
+    background: linear-gradient( to bottom, #eeeeee, white);
+}
+.footer-text {
+    background: url(../img/anketa/footer.png) no-repeat;
+    height: 316px;
+}
+.header-anketa {
+    background: url(../img/anketa/header.png) no-repeat;
+    height: 171px;
+    position: relative;
+}
+.head-title {
+    background: url(../img/anketa/head-title.png) no-repeat;
+    height: 54px;
+    margin-bottom: 40px;
+}
+.steps {
+    background: url(../img/anketa/steps.png) no-repeat;
+    height: 54px;
+    margin-bottom: 40px;
+}
+.form {
+    display: inline-block;
+    background: url(../img/anketa/form-field.png) no-repeat;
+    width:680px;
+    height: 1210px;
+    margin-bottom: 40px;
+}
+.side {
+    display: inline-block;
+    background: url(../img/anketa/side.png) no-repeat;
+    width:198px;
+    height: 524px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.home-button {
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    background: none;
+    top:40px;
+    left:20px;
+}
+.menu {
+    background: url(../img/header/dropdown_menu.png) no-repeat;
+    width:298px;
+    height:243px;
+    position: absolute;
+    bottom:-243px;
+    right: 135px;
+    display: none;
+}
+.menu-btn{
+    position: absolute;
+    width: 298px;
+    height: 50px;
+    background: none;
+    top:0;
+    right:0;
+}
+.dropdown-btn{
+    background:none;
+    width:220px;
+    height:50px;
+    position: absolute;
+    bottom:20px;
+    right: 165px;
+    cursor: pointer;
+}
+.header-btn{
+    display: inline-block;
+    background:none;
+    width:150px;
+    height:50px;
+    vertical-align: bottom;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+.wide  {
+    width:175px;
+}
+.calc {
+    display: inline-block;
+    background:none;
+    width:300px;
+    height:100%;
+}
+.anketa{
+   display: inline-block;
+    background:none;
+    width:200px;
+    height:50px; 
+    margin-left: 230px;
+    margin-top: 500px;
+}
+.anketa-main{
+   display: inline-block;
+    background:none;
+    width:230px;
+    height:50px; 
+    margin-left: 210px;
+    margin-top: 420px;
+}
+.pay{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    background: none;
+    bottom:23px;
+    left:20px;
+    cursor: pointer;
+}
+.modal-bg {
+    position: fixed;
+    top:-50%;
+    left: 50%;
+    margin-left:-50%;
+    width: 100%;
+    height: 200%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+.modal {
+    position: absolute;
+    left: 320px;
+    top: 500px;
+    width: 643px;
+    height: 862px;
+    background: url(../img/loans_and_payments/modal.png) no-repeat;
+    z-index: 999; 
+    display: none;
+}
+.close {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: none;
+    top:23px;
+    right:20px;
+    cursor: pointer; 
+}
+.btn {
+    display: inline-block;
+    width:260px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    left:20px;
+    background: none;
+}
+.btn2 {
+    display: inline-block;
+    width:200px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    left:320px;
+    background: none;
+}
+.logo {
+    display: inline-block;
+    width:110px;
+    height: 65px;
+    position: absolute;
+    top: 30px;
+    left:0px;
+    background:none;
+}
